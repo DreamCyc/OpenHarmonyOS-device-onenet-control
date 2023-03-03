@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Switch
+        ohos:id="$+id:btn_switch"
+        ohos:height="50vp"
+        ohos:width="100vp"
+        ohos:text_state_off="关"
+        ohos:text_state_on="开"
+        ohos:text_size="20fp"
+        />
+    <Text
+        ohos:id="$+id:text"
+        ohos:top_margin="30vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text=""
+        ohos:text_size="25fp"
+        />
+
+    <Text
+        ohos:id="$+id:textShidu"
+        ohos:top_margin="20vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text=""
+        ohos:text_size="25fp"
+        />
+
+</DirectionalLayout>
+
+
+
